@@ -7,7 +7,8 @@
   - type: EnergySword
     litDamageBonus:
         types:
-            Heat: 17
+            Heat: 15
+            Slash: 15
             Blunt: -4.5
     litDisarmMalus: 0.6
   - type: Sprite
@@ -30,7 +31,7 @@
   - type: Item
     size: 5
     sprite: Objects/Weapons/Melee/e_sword.rsi
-  - type: UseDelay
+  - type: UseDelay  
     delay: 1.0
   - type: PointLight
     enabled: false
@@ -64,7 +65,8 @@
     secret: true
     litDamageBonus:
         types:
-            Heat: 13
+            Heat: 7
+            Slash: 7
             Blunt: -1
     litDisarmMalus: 0.4
   - type: Sprite
